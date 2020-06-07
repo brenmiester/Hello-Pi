@@ -1,12 +1,16 @@
 #import <stdio.h>
-#import <stdlib.h>
 
 int system(const char *command);
 
 int main()
 
 {
-	printf("Hello, Pi\n");
-	printf("Also, All Cops Are Bastards\n");
+	int num=1;
+	while(num<=10)
+	{
+		printf("Hello Pi!\n");
+		printf("Also, All Cops Are Bastards.\n");
+		num++;
+	}
 	return 0;
 }
